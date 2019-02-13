@@ -1,0 +1,71 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ddbdef;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.row {
+  margin-top: 30px;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #d1ef77;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #f44e4e;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 1px 2px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0;
+  margin-left: -10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-toggle {
+	background-color: #dff3ef; 	
+}
+
+#collapsable-nav {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#heading {
+	margin-top: 15px;
+	font-size: 1.8em;
+	font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+}
+
+#chicken, #beef, #sushi {
+	background-color: #edbaa3;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 15px; 
+  padding-left: 5px;
+  color: #9e3cb2;
+}
+
+h3 {
+	font-size: 1.5em;
+  text-shadow: 2px 2px 2px #fff;
+  color: #000;
+  text-align: center;
+}
